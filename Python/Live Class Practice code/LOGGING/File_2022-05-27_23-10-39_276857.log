@@ -1,0 +1,142 @@
+2022-05-27 23:10:39.654 | DEBUG    | __main__:<module>:1 - The debug
+2022-05-27 23:10:39.658 | INFO     | __main__:<module>:2 - The info
+2022-05-27 23:10:39.738 | SUCCESS  | __main__:<module>:3 - The success
+2022-05-27 23:10:39.740 | WARNING  | __main__:<module>:4 - The warning
+2022-05-27 23:10:39.743 | ERROR    | __main__:<module>:5 - The error
+2022-05-27 23:10:39.746 | CRITICAL | __main__:<module>:6 - The critical
+2022-05-27 23:14:31.664 | ERROR    | __main__:<module>:7 - An error has been caught in function '<module>', process 'MainProcess' (6460), thread 'MainThread' (8204):
+Traceback (most recent call last):
+
+  File "C:\ProgramData\Anaconda3\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': 'Entry point for launching an IPython kernel.\n\nThis is separate from the ipykernel pack...
+           │         └ <code object <module> at 0x0000020A8FC18C90, file "C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py", line 1>
+           └ <function _run_code at 0x0000020A8FF099D0>
+
+  File "C:\ProgramData\Anaconda3\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': 'Entry point for launching an IPython kernel.\n\nThis is separate from the ipykernel pack...
+         └ <code object <module> at 0x0000020A8FC18C90, file "C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py", line 1>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+    │   └ <bound method Application.launch_instance of <class 'ipykernel.kernelapp.IPKernelApp'>>
+    └ <module 'ipykernel.kernelapp' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\ipykernel\\kernelapp.py'>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\traitlets\config\application.py", line 846, in launch_instance
+    app.start()
+    │   └ <function IPKernelApp.start at 0x0000020A94242DC0>
+    └ <ipykernel.kernelapp.IPKernelApp object at 0x0000020A8FB990A0>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ipykernel\kernelapp.py", line 677, in start
+    self.io_loop.start()
+    │    │       └ <function BaseAsyncIOLoop.start at 0x0000020A92487C10>
+    │    └ <tornado.platform.asyncio.AsyncIOMainLoop object at 0x0000020A9424F850>
+    └ <ipykernel.kernelapp.IPKernelApp object at 0x0000020A8FB990A0>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+    │    │            └ <function BaseEventLoop.run_forever at 0x0000020A91E52160>
+    │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+    └ <tornado.platform.asyncio.AsyncIOMainLoop object at 0x0000020A9424F850>
+
+  File "C:\ProgramData\Anaconda3\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000020A91E53CA0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+
+  File "C:\ProgramData\Anaconda3\lib\asyncio\base_events.py", line 1890, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000020A91DE4940>
+    └ <Handle <TaskWakeupMethWrapper object at 0x0000020A943CADC0>(<Future finis...460>, ...],))>)>
+
+  File "C:\ProgramData\Anaconda3\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskWakeupMethWrapper object at 0x0000020A943CADC0>(<Future finis...460>, ...],))>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskWakeupMethWrapper object at 0x0000020A943CADC0>(<Future finis...460>, ...],))>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskWakeupMethWrapper object at 0x0000020A943CADC0>(<Future finis...460>, ...],))>)>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 457, in dispatch_queue
+    await self.process_one()
+          │    └ <function Kernel.process_one at 0x0000020A93B021F0>
+          └ <ipykernel.ipkernel.IPythonKernel object at 0x0000020A9426BAC0>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 446, in process_one
+    await dispatch(*args)
+          │         └ ([<zmq.sugar.frame.Frame object at 0x0000020A94264EB0>, <zmq.sugar.frame.Frame object at 0x0000020A94264A90>, <zmq.sugar.fram...
+          └ <bound method Kernel.dispatch_shell of <ipykernel.ipkernel.IPythonKernel object at 0x0000020A9426BAC0>>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 353, in dispatch_shell
+    await result
+          └ <coroutine object Kernel.execute_request at 0x0000020A94299D40>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 648, in execute_request
+    reply_content = await reply_content
+                          └ <coroutine object IPythonKernel.do_execute at 0x0000020A94299AC0>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ipykernel\ipkernel.py", line 353, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+          │     │        │                   │                     └ False
+          │     │        │                   └ True
+          │     │        └ '@logger.catch\n\ndef dev_by_zero(num):\n    return 100/num\n\ndev_by_zero(100)\ndev_by_zero(0)'
+          │     └ <function ZMQInteractiveShell.run_cell at 0x0000020A93B2A790>
+          └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000020A94285190>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ipykernel\zmqshell.py", line 533, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+                 │                    │               │       └ {'store_history': True, 'silent': False}
+                 │                    │               └ ('@logger.catch\n\ndef dev_by_zero(num):\n    return 100/num\n\ndev_by_zero(100)\ndev_by_zero(0)',)
+                 │                    └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000020A94285190>
+                 └ <class 'ipykernel.zmqshell.ZMQInteractiveShell'>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\IPython\core\interactiveshell.py", line 2901, in run_cell
+    result = self._run_cell(
+             │    └ <function InteractiveShell._run_cell at 0x0000020A92820820>
+             └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000020A94285190>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\IPython\core\interactiveshell.py", line 2947, in _run_cell
+    return runner(coro)
+           │      └ <coroutine object InteractiveShell.run_cell_async at 0x0000020A942998C0>
+           └ <function _pseudo_sync_runner at 0x0000020A92807E50>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\IPython\core\async_helpers.py", line 68, in _pseudo_sync_runner
+    coro.send(None)
+    │    └ <method 'send' of 'coroutine' objects>
+    └ <coroutine object InteractiveShell.run_cell_async at 0x0000020A942998C0>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\IPython\core\interactiveshell.py", line 3172, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+                       │    │             │        │     └ 'C:\\Users\\HP\\AppData\\Local\\Temp/ipykernel_6460/2181402084.py'
+                       │    │             │        └ [<ast.FunctionDef object at 0x0000020A971DFEE0>, <ast.Expr object at 0x0000020A971DF550>, <ast.Expr object at 0x0000020A971DF...
+                       │    │             └ <ast.Module object at 0x0000020A971DF640>
+                       │    └ <function InteractiveShell.run_ast_nodes at 0x0000020A92820AF0>
+                       └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000020A94285190>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\IPython\core\interactiveshell.py", line 3364, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+              │    │        │     │               └ False
+              │    │        │     └ <ExecutionResult object at 20a971df100, execution_count=16 error_before_exec=None error_in_exec=None info=<ExecutionInfo obje...
+              │    │        └ <code object <module> at 0x0000020A96564BE0, file "C:\Users\HP\AppData\Local\Temp/ipykernel_6460/2181402084.py", line 7>
+              │    └ <function InteractiveShell.run_code at 0x0000020A92820C10>
+              └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000020A94285190>
+
+  File "C:\ProgramData\Anaconda3\lib\site-packages\IPython\core\interactiveshell.py", line 3444, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+         │         │    │               │    └ {'__name__': '__main__', '__doc__': 'Automatically created module for IPython interactive environment', '__package__': None, ...
+         │         │    │               └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000020A94285190>
+         │         │    └ <property object at 0x0000020A9280CF90>
+         │         └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x0000020A94285190>
+         └ <code object <module> at 0x0000020A96564BE0, file "C:\Users\HP\AppData\Local\Temp/ipykernel_6460/2181402084.py", line 7>
+
+> File "C:\Users\HP\AppData\Local\Temp/ipykernel_6460/2181402084.py", line 7, in <module>
+    dev_by_zero(0)
+    └ <function dev_by_zero at 0x0000020A9663A430>
+
+  File "C:\Users\HP\AppData\Local\Temp/ipykernel_6460/2181402084.py", line 4, in dev_by_zero
+    return 100/num
+               └ 0
+
+ZeroDivisionError: division by zero

@@ -1,0 +1,14 @@
+2022-05-28 23:51:04,601-*-root-*-This is my  first test code for log-*-1
+2022-05-28 23:58:41,587-*-root-*-This is my  first test code for log-*-1
+2022-05-28 23:59:13,025-*-root-*-This is my  first test code for log-*-1
+2022-05-28 23:59:43,041-*-root-*-This is my  first test code for log-*-1
+2022-05-29 00:34:31,470-*-parso.python.diff-*-diff parser start-*-282
+2022-05-29 00:34:31,534-*-parso.python.diff-*-line_lengths old: 1; new: 1-*-293
+2022-05-29 00:34:31,534-*-parso.python.diff-*--> code[replace] old[1:1] new[1:1]-*-296
+2022-05-29 00:34:31,557-*-parso.python.diff-*-parse_part from 1 to 1 (to 0 in part parser)-*-421
+2022-05-29 00:34:31,558-*-parso.python.diff-*-diff parser end-*-339
+2022-05-29 00:34:32,314-*-parso.cache-*-pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi-*-152
+2022-05-29 00:34:32,798-*-parso.cache-*-pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\sys.pyi-*-152
+2022-05-29 00:42:27,788-*-logger1.area1-*-this is info for looger one-*-1
+2022-05-29 00:42:27,818-*-logger2.area2-*-this is a debug for logger two-*-2
+2022-05-29 00:42:27,916-*-logger2.area2-*-this is info for looger one-*-3

@@ -1,0 +1,40 @@
+2022-05-28 00:36:20,988-*-Pooja-*-Error has occured-*-8
+2022-05-28 00:36:20,988-*-Pooja-*-name 'logger' is not defined-*-9
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Temp/ipykernel_4944/2593122626.py", line 3, in test
+    logger.info(str(a)+str(b))
+NameError: name 'logger' is not defined
+2022-05-28 00:36:40,964-*-Pooja-*-40-*-3
+2022-05-28 00:36:40,966-*-Pooja-*-Error has occured-*-8
+2022-05-28 00:36:40,966-*-Pooja-*-division by zero-*-9
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Temp/ipykernel_4944/3260933349.py", line 4, in test
+    div=a/b
+ZeroDivisionError: division by zero
+2022-05-28 00:37:28,625-*-Pooja-*-Error has occured-*-8
+2022-05-28 00:37:28,626-*-Pooja-*-division by zero-*-9
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Temp/ipykernel_4944/1036302730.py", line 4, in test
+    div=a/b
+ZeroDivisionError: division by zero
+2022-05-28 00:38:13,206-*-Pooja-*-40-*-3
+2022-05-28 00:38:13,207-*-Pooja-*-Error has occured-*-8
+2022-05-28 00:38:13,207-*-Pooja-*-division by zero-*-9
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Temp/ipykernel_4944/3260933349.py", line 4, in test
+    div=a/b
+ZeroDivisionError: division by zero
+2022-05-28 00:56:06,771-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 00:56:06,772-*-parso.python.diff-*-line_lengths old: 1; new: 2-*-293
+2022-05-28 00:56:06,772-*-parso.python.diff-*--> code[replace] old[1:1] new[1:2]-*-296
+2022-05-28 00:56:06,774-*-parso.python.diff-*-parse_part from 1 to 2 (to 1 in part parser)-*-421
+2022-05-28 00:56:06,774-*-parso.python.diff-*-diff parser end-*-339
+2022-05-28 00:56:07,317-*-parso.cache-*-pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi-*-152
+2022-05-28 00:56:07,467-*-parso.cache-*-pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\sys.pyi-*-152
+2022-05-28 00:58:28,573-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 00:58:28,573-*-parso.python.diff-*-line_lengths old: 2; new: 2-*-293
+2022-05-28 00:58:28,574-*-parso.python.diff-*--> code[equal] old[1:1] new[1:1]-*-296
+2022-05-28 00:58:28,574-*-parso.python.diff-*-copy old[1:1] new[1:1]-*-378
+2022-05-28 00:58:28,574-*-parso.python.diff-*--> code[replace] old[2:2] new[2:2]-*-296
+2022-05-28 00:58:28,576-*-parso.python.diff-*-parse_part from 2 to 2 (to 1 in part parser)-*-421
+2022-05-28 00:58:28,576-*-parso.python.diff-*-diff parser end-*-339

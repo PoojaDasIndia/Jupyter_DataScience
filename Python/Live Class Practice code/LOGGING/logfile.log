@@ -1,0 +1,24 @@
+2022-05-27 19:09:16,993--This is info in 'w' mode--1
+2022-05-27 19:09:16,993--This is debug--2
+2022-05-27 19:09:16,994--This is warning--3
+2022-05-27 19:09:16,994--This is error--4
+2022-05-27 19:09:16,995--This is critical--5
+2022-05-27 19:10:09,696--This is info in 'w' mode--1
+2022-05-27 19:10:09,696--This is debug--2
+2022-05-27 19:10:09,698--This is warning--3
+2022-05-27 19:10:09,698--This is error--4
+2022-05-27 19:10:09,699--This is critical--5
+WARNING:root:This is warning
+ERROR:root:This is error
+CRITICAL:root:This is critical
+ERROR:root:This is error
+CRITICAL:root:This is critical
+WARNING:root:This is warning
+ERROR:root:This is error
+CRITICAL:root:This is critical
+WARNING:root:This is warning
+ERROR:root:This is error
+CRITICAL:root:This is critical
+WARNING:Pooja:This is warning
+ERROR:Pooja:This is error
+CRITICAL:Pooja:This is critical

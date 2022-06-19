@@ -1,0 +1,111 @@
+2022-05-28 23:13:16,850-*-root-*-Your try to Computerize 10 input  For Sum and value is (45, 86, 76, 96, 23, 20, -89, 4.5, 789, 'str')-*-14
+2022-05-28 23:13:16,851-*-root-*-You can check you log for more info if your code will fail-*-19
+2022-05-28 23:13:16,851-*-root-*-Error has occured-*-20
+2022-05-28 23:13:16,852-*-root-*-unsupported operand type(s) for +: 'float' and 'str'-*-21
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Temp/ipykernel_8544/2909884606.py", line 15, in add_agrs
+    Sum_of_nos=sum(args)
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+2022-05-28 23:13:16,853-*-root-*-Your try to Computerize 8 input  For Sum and value is (45, 86, 76, 96, 23, 20, -89, 4.5)-*-14
+2022-05-28 23:16:10,805-*-parso.cache-*-pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi-*-152
+2022-05-28 23:16:10,858-*-parso.cache-*-pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\sys.pyi-*-152
+2022-05-28 23:16:16,646-*-root-*-Your try to Computerize 10 input  For Sum and value is (45, 86, 76, 96, 23, 20, -89, 4.5, 789, 'str')-*-14
+2022-05-28 23:16:16,647-*-root-*-You can check you log for more info if your code will fail-*-20
+2022-05-28 23:16:16,647-*-root-*-Error has occured-*-21
+2022-05-28 23:16:16,647-*-root-*-unsupported operand type(s) for +: 'float' and 'str'-*-22
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Temp/ipykernel_8544/2854868666.py", line 15, in add_agrs
+    Sum_of_nos=sum(args)
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+2022-05-28 23:16:16,648-*-root-*-Your try to Computerize 8 input  For Sum and value is (45, 86, 76, 96, 23, 20, -89, 4.5)-*-14
+2022-05-28 23:16:16,649-*-root-*-Sum is261.5-*-16
+2022-05-28 23:16:56,719-*-root-*-Your try to Computerize 8 input  For Sum and value is (45, 86, 76, 96, 23, 20, -89, 4.5)-*-14
+2022-05-28 23:16:56,719-*-root-*-Sum is 261.5-*-16
+2022-05-28 23:35:29,111-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 23:35:29,113-*-parso.python.diff-*-line_lengths old: 16; new: 12-*-293
+2022-05-28 23:35:29,113-*-parso.python.diff-*--> code[insert] old[1:0] new[1:2]-*-296
+2022-05-28 23:35:29,118-*-parso.python.diff-*-parse_part from 1 to 3 (to 4 in part parser)-*-421
+2022-05-28 23:35:29,118-*-parso.python.diff-*--> code[equal] old[1:9] new[3:11]-*-296
+2022-05-28 23:35:29,119-*-parso.python.diff-*-copy old[3:7] new[4:9]-*-378
+2022-05-28 23:35:29,121-*-parso.python.diff-*-parse_part from 10 to 12 (to 11 in part parser)-*-421
+2022-05-28 23:35:29,121-*-parso.python.diff-*--> code[replace] old[10:16] new[12:12]-*-296
+2022-05-28 23:35:29,121-*-parso.python.diff-*-diff parser end-*-339
+2022-05-28 23:35:36,162-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 23:35:36,163-*-parso.python.diff-*-line_lengths old: 12; new: 12-*-293
+2022-05-28 23:35:36,163-*-parso.python.diff-*--> code[equal] old[1:11] new[1:11]-*-296
+2022-05-28 23:35:36,164-*-parso.python.diff-*-copy old[1:9] new[1:9]-*-378
+2022-05-28 23:35:36,165-*-parso.python.diff-*-parse_part from 10 to 12 (to 11 in part parser)-*-421
+2022-05-28 23:35:36,165-*-parso.python.diff-*--> code[replace] old[12:12] new[12:12]-*-296
+2022-05-28 23:35:36,166-*-parso.python.diff-*-diff parser end-*-339
+2022-05-28 23:35:37,121-*-parso.cache-*-pickle loaded: C:\ProgramData\Anaconda3\lib\logging\__init__.py-*-152
+2022-05-28 23:35:41,092-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 23:35:41,093-*-parso.python.diff-*-line_lengths old: 12; new: 12-*-293
+2022-05-28 23:35:41,094-*-parso.python.diff-*--> code[equal] old[1:11] new[1:11]-*-296
+2022-05-28 23:35:41,094-*-parso.python.diff-*-copy old[1:9] new[1:9]-*-378
+2022-05-28 23:35:41,095-*-parso.python.diff-*-parse_part from 10 to 12 (to 11 in part parser)-*-421
+2022-05-28 23:35:41,095-*-parso.python.diff-*--> code[replace] old[12:12] new[12:12]-*-296
+2022-05-28 23:35:41,096-*-parso.python.diff-*-diff parser end-*-339
+2022-05-28 23:35:53,726-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 23:35:53,727-*-parso.python.diff-*-line_lengths old: 12; new: 13-*-293
+2022-05-28 23:35:53,727-*-parso.python.diff-*--> code[equal] old[1:11] new[1:11]-*-296
+2022-05-28 23:35:53,728-*-parso.python.diff-*-copy old[1:9] new[1:9]-*-378
+2022-05-28 23:35:53,729-*-parso.python.diff-*-parse_part from 10 to 12 (to 12 in part parser)-*-421
+2022-05-28 23:35:53,729-*-parso.python.diff-*--> code[replace] old[12:12] new[12:13]-*-296
+2022-05-28 23:35:53,730-*-parso.python.diff-*-parse_part from 13 to 13 (to 12 in part parser)-*-421
+2022-05-28 23:35:53,730-*-parso.python.diff-*-diff parser end-*-339
+2022-05-28 23:36:01,665-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 23:36:01,666-*-parso.python.diff-*-line_lengths old: 13; new: 13-*-293
+2022-05-28 23:36:01,666-*-parso.python.diff-*--> code[equal] old[1:12] new[1:12]-*-296
+2022-05-28 23:36:01,666-*-parso.python.diff-*-copy old[1:12] new[1:12]-*-378
+2022-05-28 23:36:01,666-*-parso.python.diff-*--> code[replace] old[13:13] new[13:13]-*-296
+2022-05-28 23:36:01,667-*-parso.python.diff-*-parse_part from 13 to 13 (to 12 in part parser)-*-421
+2022-05-28 23:36:01,667-*-parso.python.diff-*-diff parser end-*-339
+2022-05-28 23:36:12,037-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 23:36:12,038-*-parso.python.diff-*-line_lengths old: 13; new: 13-*-293
+2022-05-28 23:36:12,038-*-parso.python.diff-*--> code[equal] old[1:12] new[1:12]-*-296
+2022-05-28 23:36:12,039-*-parso.python.diff-*-copy old[1:12] new[1:12]-*-378
+2022-05-28 23:36:12,039-*-parso.python.diff-*--> code[replace] old[13:13] new[13:13]-*-296
+2022-05-28 23:36:12,040-*-parso.python.diff-*-parse_part from 13 to 13 (to 12 in part parser)-*-421
+2022-05-28 23:36:12,041-*-parso.python.diff-*-diff parser end-*-339
+2022-05-28 23:38:42,524-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 23:38:42,525-*-parso.python.diff-*-line_lengths old: 13; new: 1-*-293
+2022-05-28 23:38:42,526-*-parso.python.diff-*--> code[replace] old[1:13] new[1:1]-*-296
+2022-05-28 23:38:42,526-*-parso.python.diff-*-parse_part from 1 to 1 (to 0 in part parser)-*-421
+2022-05-28 23:38:42,527-*-parso.python.diff-*-diff parser end-*-339
+2022-05-28 23:38:46,256-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 23:38:46,257-*-parso.python.diff-*-line_lengths old: 1; new: 1-*-293
+2022-05-28 23:38:46,257-*-parso.python.diff-*--> code[replace] old[1:1] new[1:1]-*-296
+2022-05-28 23:38:46,258-*-parso.python.diff-*-parse_part from 1 to 1 (to 0 in part parser)-*-421
+2022-05-28 23:38:46,258-*-parso.python.diff-*-diff parser end-*-339
+2022-05-28 23:38:46,972-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 23:38:46,973-*-parso.python.diff-*-line_lengths old: 1; new: 1-*-293
+2022-05-28 23:38:46,973-*-parso.python.diff-*--> code[replace] old[1:1] new[1:1]-*-296
+2022-05-28 23:38:46,973-*-parso.python.diff-*-parse_part from 1 to 1 (to 0 in part parser)-*-421
+2022-05-28 23:38:46,974-*-parso.python.diff-*-diff parser end-*-339
+2022-05-28 23:38:48,907-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 23:38:48,907-*-parso.python.diff-*-line_lengths old: 1; new: 1-*-293
+2022-05-28 23:38:48,907-*-parso.python.diff-*--> code[replace] old[1:1] new[1:1]-*-296
+2022-05-28 23:38:48,908-*-parso.python.diff-*-parse_part from 1 to 1 (to 0 in part parser)-*-421
+2022-05-28 23:38:48,908-*-parso.python.diff-*-diff parser end-*-339
+2022-05-28 23:41:26,914-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 23:41:26,915-*-parso.python.diff-*-line_lengths old: 1; new: 1-*-293
+2022-05-28 23:41:26,915-*-parso.python.diff-*--> code[replace] old[1:1] new[1:1]-*-296
+2022-05-28 23:41:26,916-*-parso.python.diff-*-parse_part from 1 to 1 (to 0 in part parser)-*-421
+2022-05-28 23:41:26,916-*-parso.python.diff-*-diff parser end-*-339
+2022-05-28 23:41:27,153-*-parso.cache-*-pickle loaded: C:\ProgramData\Anaconda3\lib\typing.py-*-152
+2022-05-28 23:41:27,215-*-parso.cache-*-pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\typing.pyi-*-152
+2022-05-28 23:42:00,835-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 23:42:00,836-*-parso.python.diff-*-line_lengths old: 1; new: 1-*-293
+2022-05-28 23:42:00,838-*-parso.python.diff-*--> code[replace] old[1:1] new[1:1]-*-296
+2022-05-28 23:42:00,839-*-parso.python.diff-*-parse_part from 1 to 1 (to 0 in part parser)-*-421
+2022-05-28 23:42:00,839-*-parso.python.diff-*-diff parser end-*-339
+2022-05-28 23:42:25,329-*-parso.python.diff-*-diff parser start-*-282
+2022-05-28 23:42:25,329-*-parso.python.diff-*-line_lengths old: 1; new: 1-*-293
+2022-05-28 23:42:25,330-*-parso.python.diff-*--> code[replace] old[1:1] new[1:1]-*-296
+2022-05-28 23:42:25,331-*-parso.python.diff-*-parse_part from 1 to 1 (to 0 in part parser)-*-421
+2022-05-28 23:42:25,331-*-parso.python.diff-*-diff parser end-*-339
+2022-05-28 23:47:35,756-*-root-*-This is my  first test code for log-*-1
+2022-05-28 23:47:38,089-*-root-*-This is my  first test code for log-*-1
+2022-05-28 23:48:37,522-*-root-*-This is my  first test code for log-*-1
+2022-05-28 23:49:03,518-*-root-*-This is my  first test code for log-*-1
+2022-05-28 23:50:30,803-*-root-*-This is my  first test code for log-*-1

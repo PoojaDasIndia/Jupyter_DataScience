@@ -1,0 +1,18 @@
+2022-05-28 14:45:45,604-*-root-*-Testing-*-1
+2022-05-28 14:47:16,126-*-root-*-Your try to Computerize 8 input  For Sum and value is (45, 86, 76, 96, 23, 20, -89, 4.5)-*-5
+2022-05-28 14:48:37,286-*-root-*-Your try to Computerize 8 input  For Sum and value is (45, 86, 76, 96, 23, 20, -89, 4.5)-*-5
+2022-05-28 14:49:11,794-*-root-*-Your try to Computerize 10 input  For Sum and value is (45, 86, 76, 96, 23, 20, -89, 4.5, 789, 'str')-*-5
+2022-05-28 14:49:11,795-*-root-*-Error has occured-*-10
+2022-05-28 14:49:11,795-*-root-*-unsupported operand type(s) for +: 'float' and 'str'-*-11
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Temp/ipykernel_3940/1739990147.py", line 6, in add_agrs
+    Sum_of_nos=sum(args)
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+2022-05-28 14:49:43,758-*-root-*-Your try to Computerize 10 input  For Sum and value is (45, 86, 76, 96, 23, 20, -89, 4.5, 789, 'str')-*-5
+2022-05-28 14:49:43,759-*-root-*-You can check you log for more info if your code will fail-*-10
+2022-05-28 14:49:43,759-*-root-*-Error has occured-*-11
+2022-05-28 14:49:43,759-*-root-*-unsupported operand type(s) for +: 'float' and 'str'-*-12
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Temp/ipykernel_3940/3573708256.py", line 6, in add_agrs
+    Sum_of_nos=sum(args)
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
