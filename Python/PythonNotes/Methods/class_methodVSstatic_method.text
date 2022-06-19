@@ -1,0 +1,15 @@
+@classmethod
+	
+1. Declares a class method.
+2. It can access class attributes, but not the instance attributes.	
+3. It can be called using the ClassName.MethodName() or object.MethodName().	
+4. It can be used to declare a factory method that returns objects of the class.
+
+
+
+@staticmethod
+
+1. Declares a static method.
+2. It cannot access either class attributes or instance attributes.
+3. It can be called using the ClassName.MethodName() or object.MethodName().
+4. It cannot return an object of the class
